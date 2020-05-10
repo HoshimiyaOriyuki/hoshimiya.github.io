@@ -1,1 +1,9 @@
 /* main css file */
+@font-face {
+	font-family: Jost;
+	src: url(fonts/Jost-Regular.ttf);
+}
+
+h1, p, #button {
+	font-family: Jost;
+}
