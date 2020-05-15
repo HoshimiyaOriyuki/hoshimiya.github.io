@@ -1,13 +1,22 @@
 /* main css file */
 @font-face {
-	font-family: Jost;
-	src: url(fonts/Jost-Regular.ttf);
+	font-family: jost;
+	src: url(fonts/jost.ttf);
 }
 
-h1, p, #button {
-	font-family: Jost;
+h1, h5, p, nav, a {
+	font-family: jost;
 }
 
 img {
 	border-radius: 8px;
 }
+
+@media only screen and (min-width: 992px) {
+	body {
+		background-image: url("assets/backgrounds/sea.jpg");
+		background-size: cover;
+		background-attachment : fixed;
+	}
+}
+
