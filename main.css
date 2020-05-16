@@ -4,7 +4,7 @@
 	src: url(fonts/jost.ttf);
 }
 
-h1, h5, p, nav, a {
+h1, h2, h5, p, nav, a, li, ul {
 	font-family: jost;
 }
 
