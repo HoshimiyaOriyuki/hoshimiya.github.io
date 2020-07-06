@@ -12,6 +12,10 @@ img {
 	border-radius: 8px;
 }
 
+body {
+	overflow: hidden;
+}
+
 @media only screen and (min-width: 992px) {
 	body {
 		background-image: url("assets/backgrounds/sea.jpg");
